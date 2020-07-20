@@ -1,0 +1,29 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "A backend api to be consude by our front end vue client.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index",
+    "dev": "cross-env NODE_ENV=development nodemon index"
+  },
+  "keywords": [
+    "taskmanager",
+    "rest",
+    "api",
+    "backend"
+  ],
+  "author": "Ashfaq H Ahmed",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.9.25"
+  }
+}
